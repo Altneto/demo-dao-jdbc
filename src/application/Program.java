@@ -46,7 +46,7 @@ public class Program {
 		System.out.println("Atualização concluida");
 		
 		System.out.println("\n=== TEST 6: seller delete ====");
-		System.out.println("Entre com o Id para deletar: ");
+		System.out.print("Entre com o Id para deletar: ");
 		int id = scanner.nextInt();
 		sellerDao.deleteById(id);
 		System.out.println("Id deletado");
